@@ -806,14 +806,30 @@ main {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #007bff;
+  background-color: #000; /* เปลี่ยนเป็นสีดำ */
   border: none;
-  border-radius: 5px;
+  border-radius: 50px; /* ปรับให้กลมมากขึ้น */
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+.btn-home {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: #bebebe; /* เปลี่ยนเป็นสีดำ */
+  border: none;
+  border-radius: 50px; /* ปรับให้กลมมากขึ้น */
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 .btn-read-more:hover {
-  background-color: #0056b3;
+  background-color: #333; /* สีดำเข้มขึ้นเมื่อ hover */
 }
